@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Workspace & Cafe</title>
+    
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="index.css">
+     <script src="index.js" defer></script>
+</head>
+    <body>
+
+    <header>
+        <nav>
+            <div class="logo"> <a href="#home">Lumina.</a></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#amenities">Amenities</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode" title="Toggle Dark Mode">🌙</button>
+                <a href="#pricing" class="btn-primary">Book a Desk</a>
+            </div>
+        </nav>
+    </header>
+
+  
+    <section class="hero" id="home">
+        <h1>Your Coffee. Your Desk. Your Focus.</h1>
+        <p>A premium workspace cafe designed for freelancers, remote workers, and creative professionals.</p>
+        <a href="#pricing" class="btn-primary" style="padding: 1rem 2.5rem; font-size: 1.1rem;">Get Started</a>
+    </section>
+
+
+    <section class="amenities" id="amenities">
+        <h2 class="section-title">Everything You Need</h2>
+        <div class="amenities-grid">
+            <div class="amenity-card">
+                <h3>⚡ Gigabit Wi-Fi</h3>
+                <p>Lightning-fast and secure internet connection to keep your workflow uninterrupted.</p>
+            </div>
+            <div class="amenity-card">
+                <h3>☕ Specialty Coffee</h3>
+                <p>Unlimited artisanal coffee and premium teas brewed fresh throughout the day.</p>
+            </div>
+            <div class="amenity-card">
+                <h3>🪑 Ergonomic Seating</h3>
+                <p>Herman Miller chairs and standing desk options to keep you comfortable and healthy.</p>
+            </div>
+            <div class="amenity-card">
+                <h3>🤝 Meeting Rooms</h3>
+                <p>Soundproof booths and conference rooms equipped with screens and whiteboards.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pricing" id="pricing">
+        <h2 class="section-title">Flexible Passes</h2>
+        <div class="pricing-grid">
+            <div class="price-card">
+                <h3>Day Pass</h3>
+                <div class="price">$15 <span>/ day</span></div>
+                <ul>
+                    <li>Hot desk access</li>
+                    <li>Gigabit Wi-Fi</li>
+                    <li>Unlimited drip coffee</li>
+                    <li>Access 8 AM - 6 PM</li>
+                </ul>
+                <a href="#pricing" class="btn-primary">Choose Plan</a>
+            </div>
+            
+            <div class="price-card featured-card">
+                <h3>Monthly Pro</h3>
+                <div class="price">$199 <span>/ month</span></div>
+                <ul>
+                    <li>24/7 Access</li>
+                    <li>Dedicated desk</li>
+                    <li>Unlimited specialty drinks</li>
+                    <li>5 hours meeting room credit</li>
+                </ul>
+                <a href="#pricing" class="btn-primary">Choose Plan</a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2026 Lumina Workspace & Cafe. All rights reserved.</p>
+        <p class="footer-address">Pune Coffee Lane, Deccan Education Society</p>
+    </footer>
